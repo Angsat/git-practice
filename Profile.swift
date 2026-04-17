@@ -6,3 +6,8 @@
 //
 
 import Foundation
+struct Profile {
+    let name: String
+    let age: Int
+}
+let mockProfile = Profile(name: "Alex", age: 24)
